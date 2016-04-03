@@ -89,7 +89,7 @@ class AdminLte2PluginsGenerator < Rails::Generators::Base
   end
 
   def install_icheck
-    add_plugin('iCheck', 'js')
+    add_plugin('iCheck', 'js', 'icheck')
 
     inject_into_application_stylesheet('iCheck/square/blue')
 
